@@ -868,14 +868,3 @@ pca.explained_variance_ratio_
 
 
 Nearly 60% of the variation in treatments is due to principle components 1 and 2.
-
-
-```python
-finalDf.to_csv("listPCs.csv")
-
-```
-
-
-```python
-
-```
