@@ -15,14 +15,7 @@ df=pd.read_table("Exp_GSEA.txt")
 #look at first few rows of data
 df.head()
 
-#observe names of columns in data frame
-list(df.columns)
-
-#remove the ensembl id from the list of column names
-features=list(df.columns)
-features.remove("Ensembl ID")
-
-#transpose the data
+#transpose the data to make the features of interest the genes
 df=df.transpose()
 
 df.head()
