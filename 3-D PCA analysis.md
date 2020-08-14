@@ -9,13 +9,6 @@ The data for this analysis was generated after breast cancer cells were treated 
 #import pandas module to read data as dataframe
 import pandas as pd
 
-#import os module to get and change directories
-import os
-os.getcwd()
-
-#change directory to location of file
-#os.chdir("Documents")
-
 #read data into python using pandas
 df=pd.read_table("Exp_GSEA.txt")
 
