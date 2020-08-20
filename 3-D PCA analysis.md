@@ -2,7 +2,7 @@
 
 ## By Brandi Smith
 
-The data for this analysis was generated after breast cancer cells were treated in vitro with several treatments. RNA sequencing analysis and gene set enrichment analysis (GSEA) followed. 
+The data for this analysis was generated after breast cancer cells were treated in vitro with several treatments and RNA sequencing analysis performed.
 
 
 ```python
